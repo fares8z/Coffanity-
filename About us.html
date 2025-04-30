@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About us  | Coffanity</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+
+<header id="navbar">
+    <div class="logo">Coffanity</div>
+    <nav>
+      <a href="htmlcode.html">Home</a>
+      <a href="menu.html">Menu</a> 
+      <a href="#contact">Contact Us</a>
+      <a href="About us.html">About us</a>
+      <a href="#" onclick="openModal('signInModal'); return false;">Sign In</a>
+    </nav>
+  </header>
+
+<body>
+
+  
+    <section class="team-section">
+        <h2 class="team-title">Meet Our Team</h2>
+        <div class="team-container">
+          <div class="team-member">
+            <img src="D:\fares\collage\levele 2\semester 2\WEB\COFFE SHOP\المشروع بجد\WhatsApp Image 2024-05-02 at 14.05.51_cceb78b6.jpg" alt="Fares" class="circle2" >
+            <p class="description"><b>Fares</br></b>Ceo</p>
+          </div>
+          <div class="team-member">
+            <img src="https://img.freepik.com/free-photo/businessman-shows-his-finger-up_329181-9112.jpg?ga=GA1.1.977879623.1741808288&semt=ais_hybrid&w=740" alt="Rodyna" class="circle2">
+            <p class="description"><b>Rodyna</br></b>Head Barista</p>
+          </div>
+          <div class="team-member">
+            <img src="https://img.freepik.com/free-photo/businessman-shows-his-finger-up_329181-9112.jpg?ga=GA1.1.977879623.1741808288&semt=ais_hybrid&w=740" alt="Rawan"  class="circle2">
+            <p class="description"><b>Rawan</br> </b> Latte Artist</p>
+          </div>
+          <div class="team-member">
+            <img src="D:\fares\collage\levele 2\semester 2\WEB\COFFE SHOP\المشروع بجد\y.png" alt="Yousef"  class="circle2"  >
+            <p class="description"><b>Yousef</br> </b> Customer Happiness</p>
+          </div>
+          <div class="team-member">
+            <img src="D:\fares\collage\levele 2\semester 2\WEB\COFFE SHOP\المشروع بجد\o.png" alt="Omar"   class="circle2">
+            <p class="description"><b>Omar</br>  </b>Coffee Curator</p>
+          </div>
+          <div class="team-member">
+            <img src="https://img.freepik.com/free-photo/businessman-shows-his-finger-up_329181-9112.jpg?ga=GA1.1.977879623.1741808288&semt=ais_hybrid&w=740" alt="Fatma"    class="circle2">
+            <p class="description"><b>Fatma</br> </b> Bean Roasting Expert</p>
+          </div>
+        </div>
+      </section>
+</body>
+
+
+<footer>
+    <footer id="contact">
+
+    <div class="footer-content">
+      <p>&copy; 2025 Coffanity. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" />
+        </a>
+        <a href="https://github.com/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" />
+        </a>
+        <a href="https://wa.me/201205880867" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width:32px; height:32px;" />
+        </a>
+      </div>
+    </div>
+  </footer>
+
+
+
+<div id="signInModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('signInModal')">&times;</span>
+        <h2>Sign In</h2>
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button class="modal-btn" onclick="submitForm('signIn')">Login</button>
+    </div>
+
+</div>
+
+
+  
+  </html>

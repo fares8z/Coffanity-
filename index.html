@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Coffanity | Coffee Shop</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500&display=swap" 
+    rel="stylesheet"/>
+    
+     
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+   
+
+
+
+    
+</head>
+<body>
+
+  <div id="overlay" class="hidden">
+    <div id="popup">
+      <h2>Welcome to Coffanity<br>Welcome to your comfort zone.</h2>
+      <button id="closeBtn"><big><b>يلا كيفني</b></big></button>
+    </div>
+  </div>
+  
+      
+    
+    <header id="navbar">
+        <div class="logo">Coffanity</div>
+            <nav>
+                <a href="#"><b>Home</b></a>
+                <a href="menu.html"><b>Menu</b></a> 
+                <a href="#contact"><b>Contact Us</b></a>
+                <a href="About us.html"><b>About us</b></a>
+                <a href="#" onclick="openModal('signInModal'); return false;">Sign In</a>
+                
+            </nav>
+    </header>
+<main>
+
+    <section class="descrition">
+        <div class="descrition-content">
+         <h1><b>Discover The Art Of Perfect Coffee</b>     
+        <h1>أنت والكافيين, كافيين.....!بجد</h1>
+            <div class="buttons">
+                <button class="btn">Sign In</button>
+                <button class="btn">Sign Up</button>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>10+</h3>
+                    <p>Item of Coffee</p>
+                </div>
+                <div class="stat-item">
+                    <h3>200+</h3>
+                    <p>Order Running</p>
+                </div>
+                <div class="stat-item">
+                    <h3>50k+</h3>
+                    <p>Happy Customer</p>
+                </div>
+            </div>
+        </div>
+        <img class="coffee-img" src="https://www.pngmart.com/files/4/Coffee-Cup-PNG-HD.png" alt="Coffee Cup" />
+    
+    </section>
+
+    <div class="video-container">
+      <iframe 
+          src="https://media.istockphoto.com/id/934141810/video/barista-preparing-coffee-machine-and-brewing-espresso-coffee-at-cafe.mp4?s=mp4-640x640-is&k=20&c=2lVWmBPCYjo4XaBdQYzqlwg44f5zPYCEqxEOgTLp41I=" 
+          width="1000" 
+          height="1000" 
+          frameborder="0" 
+          title="Barista Preparing Coffee" 
+          allow="autoplay; encrypted-media" 
+          allowfullscreen>
+      </iframe>
+    </div>
+
+
+
+
+</main>
+
+
+
+
+
+<footer>
+  <footer id="contact"  class="footer-content hidden" >
+
+    <div class="footer-content">
+      <p>&copy; 2025 Coffanity. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" />
+        </a>
+        <a href="https://github.com/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" />
+        </a>
+        <a href="https://wa.me/201205880867" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width:32px; height:32px;" />
+        </a>
+      </div>
+    </div>
+  </footer>
+  
+
+    <div id="signInModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('signInModal')">&times;</span>
+            <h2>Sign In</h2>
+            <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Password" required />
+            <button class="modal-btn" onclick="submitForm('signIn')">Login</button>
+        </div>
+    </div>
+
+    <div id="signUpModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('signUpModal')">&times;</span>
+            <h2>Sign Up</h2>
+            <input type="text" placeholder="First Name" required />
+            <input type="text" placeholder="Last Name" required />
+            <input type="email" placeholder="Email" required />
+            <input type="password" placeholder="Password" required />
+            <input type="password" placeholder="Confirm Password" required />
+            <button class="modal-btn" onclick="submitForm('signUp')">Register</button>
+        </div>
+    </div>
+</body>
+</html>

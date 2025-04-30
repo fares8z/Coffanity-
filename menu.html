@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu | Coffanity</title>
+  <link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+    <header id="navbar">
+        <div class="logo">Coffanity</div>
+        <nav>
+            <nav>
+                <a href="htmlcode.html">Home</a>
+                <a href="menu.html">Menu</a> 
+                <a href="#contact">Contact Us</a>
+                <a href="About us.html">About us</a>
+                <a href="#" onclick="openModal('signInModal'); return false;">Sign In</a>
+            </nav>         
+        </nav>
+    </header>
+<main>
+
+        <div class="container">
+          <div class="grid">
+      
+            <div class="item">
+              <div class="circle">
+                <img src="https://storage.googleapis.com/a1aa/image/2316fdc4-10a7-4a84-c56a-40de4cc77ed6.jpg" alt=" cold brew coffee" />
+              </div>
+              <div class="caption"><b>Cold Brew</b></div>
+              <a href="coldbrew.html" class="btn">Buy Now</a>
+              
+            </div>
+      
+            <div class="item">
+              <div class="circle">
+                <img src="https://storage.googleapis.com/a1aa/image/4566cdc3-1fcb-48f0-8e65-119d2a019bc8.jpg" alt="Glass of vanilla sweet cream cold brew coffee " />
+              </div>
+              <div class="caption"><b>Vanilla Sweet</b></div>
+              
+              <a href="VanillaSweet.html" class="btn">Buy Now</a>
+
+              
+            </div>
+      
+            <div class="item">
+              <div class="circle">
+                <img src="https://storage.googleapis.com/a1aa/image/8622c4b3-60e2-4d3b-3f1b-9bd911234653.jpg" alt="Glass of salted caramel cream cold brew coffee " />
+              </div>
+              <div class="caption"><b>Salted Caramel</b></div>
+              <a href="Salted Caramel.html" class="btn">Buy Now</a>           
+             </div>
+      
+            <div class="item">
+              <div class="circle">
+                <img src="https://storage.googleapis.com/a1aa/image/5df53a11-d06e-4881-f0ce-e4223582d493.jpg" alt="Glass of chocolate cream cold brew coffee " />
+              </div>
+              <div class="caption"><b>Chocolate Cream</b></div>
+              <a href="Chocolate Cream.html" class="btn">Buy Now</a>          
+              </div>
+      
+            <div class="item">
+              <div class="circle">
+                <img src="https://storage.googleapis.com/a1aa/image/d23cc56f-8735-41b4-dc75-aa5414d5c360.jpg" alt="Glass of nondairy vanilla sweet cream cold brew coffee " />
+              </div>
+              <div class="caption"><b>Nondairy Vanilla</b></div>
+              <a href="coldbrew.html" class="btn">Buy Now</a>            
+            </div>
+      
+            <div class="item">
+              <div class="circle">
+                <img src="https://storage.googleapis.com/a1aa/image/127a6bb0-553a-47e2-2ffc-aaebae64264e.jpg" alt="Glass of nondairy salted caramel cream cold brew coffee with ice and cream foam on top" />
+              </div>
+              <div class="caption"><b>Nondairy Salted</b></div>
+              <a href="coldbrew.html" class="btn">Buy Now</a>       
+                 </div>
+      
+            <div class="item">
+              <div class="circle">
+                <img src="https://storage.googleapis.com/a1aa/image/5130a694-7f60-4884-82fa-acadc58958f3.jpg" alt="Glass of cold brew coffee with nondairy vanilla sweet cream cold foam on top" />
+              </div>
+              <div class="caption"><b>Nondairy Vanilla</b></div>
+              <a href="coldbrew.html" class="btn">Buy Now</a>          
+              </div>
+      
+            <div class="item">
+              <div class="circle">
+                <img src="https://storage.googleapis.com/a1aa/image/b8deb27d-7fb4-4e99-f770-e937c587c590.jpg" alt="Glass of nondairy chocolate cream cold brew coffee with ice and chocolate cream foam on top" />
+              </div>
+              <div class="caption"><b>Nondairy Chocolate Cream</b></div>
+              <a href="coldbrew.html" class="btn">Buy Now</a>          
+              </div>
+      
+          </div>
+        </div>
+      
+        
+             
+
+    
+</main>
+
+<footer>
+  <footer id="contact">
+
+    <div class="footer-content">
+      <p>&copy; 2025 Coffanity. All rights reserved.</p>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" />
+        </a>
+        <a href="https://github.com/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" />
+        </a>
+        <a href="https://wa.me/201205880867" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width:32px; height:32px;" />
+        </a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+    
+  <div id="signInModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('signInModal')">&times;</span>
+        <h2>Sign In</h2>
+        <input type="email" placeholder="Email" required />
+        <input type="password" placeholder="Password" required />
+        <button class="modal-btn" onclick="submitForm('signIn')">Login</button>
+    </div>
+</div>
+
+
+   
+
+</body>
+</html>
